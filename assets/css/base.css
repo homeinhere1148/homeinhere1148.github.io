@@ -1,0 +1,61 @@
+:root {
+    --white-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon_big {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icon_biger {
+    font-size: 40px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon_big:hover,
+.icon_biger:hover {
+color: #7200A1;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    color: #fff;
+    padding: 5px 36px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    min-width: 50px;
+}
+
+.active {
+    color: #7200A1;
+}
+.playing {
+    color: #7200A1;
+}
+   
